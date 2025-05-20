@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": 1,
+          "name": "Cloud Accounts",
+          "text": "Data for Cloud Accounts",
+          "image": "/images/accuknox_image.png"
+        },
+        {
+          "id": 2,
+          "name": "Cloud Account Risk Assessment",
+          "text": "Data for Risk Management System",
+          "image": "/images/accuknox_image.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": 1,
+          "name": "Top 5 Namespace Specific Alerts",
+          "text": "Data for Namespace Alerts",
+          "image": "/images/accuknox_noimage.png"
+        },
+        {
+          "id": 2,
+          "name": "Workload Alerts",
+          "text": "Data for Workload Alerts",
+          "image": "/images/accuknox_noimage.png"
+        }
+      ]
+    }
+  ]
+}

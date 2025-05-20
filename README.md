@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Live Link: [Dashboard](https://dashboard-psi-ten-36.vercel.app/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description:  A customizable dashboard lets users add, remove, and manage widgets within categories. Users can easily create widgets with a name and content, organise them under sections, and search across all widgets.
 
-## Available Scripts
+## To Do:
+### 1. Create a JSON to build this dashboard/widget dynamically. JSON should contain categories, and each category can contain multiple widgets.
+### 2. Users should be able to dynamically add a widget and remove a widget from a section/ category. eg, CSPM Executive dashboard is a category.
+### 3. For an individual widget, for assignment purposes, we can just put random text.
+### 4. Once the user clicks on +Add Widget, users should be able to add the Widget name, widget text, and it should be added to that category.
+### 5. On each widget, we can have a cross icon to remove it from a category, or users can go tothe  add category section and uncheck fromthe  category list
+### 6. Users should be able to search a list of all the widgets.
 
-In the project directory, you can run:
+## Technologies used: React.js, Tailwind CSS, Redux
 
-### `npm start`
+## Achieved:
+### 1. Created a dashboard displaying categories and widgets inside each category.
+### 2. The user can search for any widget using the search bar.
+### 3. The user can add a widget using the Add widget option for any category and can add a name and text for the widget created.
+### 4. The user can delete any widget using the cross mark on each widget.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
